@@ -1,0 +1,11 @@
+/* Update these 4 values to instantly change the entire website's color palette! */
+:root {
+  --color-base: #FBFBFB;
+  /* Backgrounds and default surfaces */
+  --color-primary: #003459;
+  /* Main text and primary high-contrast elements */
+  --color-secondary: #326789;
+  /* Outlines, secondary accents, buttons */
+  --color-tertiary: #74bde0;
+  /* Highlights, surface tints, soft accents */
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Book Appointment - Krushna Homoeopathy</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed-variant": "#003ea8",
+                    "inverse-primary": "#c0c6db",
+                    "surface-container": "#edeeef",
+                    "surface-bright": "#f8f9fa",
+                    "primary": "#000000",
+                    "error-container": "#ffdad6",
+                    "surface-container-highest": "#e1e3e4",
+                    "primary-container": "#141b2b",
+                    "on-surface-variant": "#45464c",
+                    "tertiary-container": "#002113",
+                    "on-primary": "#ffffff",
+                    "error": "#ba1a1a",
+                    "background": "#f8f9fa",
+                    "on-error-container": "#93000a",
+                    "secondary-container": "#316bf3",
+                    "on-secondary-fixed": "#00174b",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary": "#000000",
+                    "surface-dim": "#d9dadb",
+                    "outline-variant": "#c6c6cd",
+                    "primary-fixed-dim": "#c0c6db",
+                    "on-primary-container": "#7d8497",
+                    "on-secondary-container": "#fefcff",
+                    "surface-tint": "#575e70",
+                    "on-tertiary-container": "#009668",
+                    "on-tertiary-fixed": "#002113",
+                    "secondary": "#0051d5",
+                    "surface-variant": "#e1e3e4",
+                    "on-primary-fixed-variant": "#404758",
+                    "primary-fixed": "#dce2f7",
+                    "surface-container-low": "#f3f4f5",
+                    "inverse-surface": "#2e3132",
+                    "inverse-on-surface": "#f0f1f2",
+                    "on-primary-fixed": "#141b2b",
+                    "on-error": "#ffffff",
+                    "outline": "#76777d",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed": "#6ffbbe",
+                    "on-surface": "#191c1d",
+                    "surface": "#f8f9fa",
+                    "on-tertiary-fixed-variant": "#005236",
+                    "surface-container-high": "#e7e8e9",
+                    "secondary-fixed-dim": "#b4c5ff",
+                    "on-background": "#191c1d",
+                    "secondary-fixed": "#dbe1ff",
+                    "tertiary-fixed-dim": "#4edea3",
+                    "on-secondary": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-background antialiased overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-black/80 backdrop-blur-xl">
+<div class="flex justify-between items-center px-8 py-4 max-w-6xl mx-auto">
+<div class="text-xl font-black tracking-tighter text-black dark:text-white uppercase">
+                Krushna Homoeopathy
+            </div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-sm font-bold tracking-tight uppercase text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300" href="/">Home</a>
+<a class="text-sm font-bold tracking-tight uppercase text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300" href="/about.html">About Doctor</a>
+<a class="text-sm font-bold tracking-tight uppercase text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300" href="/services.html">Services</a>
+<a class="text-sm font-bold tracking-tight uppercase text-black dark:text-white border-b-2 border-black dark:border-white pb-1 transition-colors duration-300" href="/contact.html">Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest hover:scale-95 duration-200 transition-transform" onclick="window.location.href='/contact.html'">Book Appointment</button>
+</div>
+</nav>
+<main class="pt-24 pb-20 px-6 max-w-6xl mx-auto">
+<!-- Hero Section -->
+<header class="mb-12 text-center md:text-left">
+<h1 class="text-3xl md:text-3xl font-black tracking-tighter text-primary mb-4 leading-none">
+                Begin Your Path to <span class="text-secondary">Healing</span>.
+            </h1>
+<p class="text-on-surface-variant max-w-2xl text-lg md:text-xl font-medium leading-relaxed">
+                Experience gentle, effective homoeopathic care tailored to your unique health journey. Reach out to secure your consultation.
+            </p>
+</header>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left: Booking Form -->
+<section class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-8 shadow-2xl shadow-black/[0.03]">
+<h2 class="text-2xl font-bold tracking-tight mb-8">Request an Appointment</h2>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="block text-[10px] font-bold uppercase tracking-widest text-on-surface-variant px-1">Full Name</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl px-4 py-4 focus:ring-2 focus:ring-secondary transition-all placeholder:text-outline-variant" placeholder="John Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="block text-[10px] font-bold uppercase tracking-widest text-on-surface-variant px-1">Phone Number</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl px-4 py-4 focus:ring-2 focus:ring-secondary transition-all placeholder:text-outline-variant" placeholder="+91 92718 93176" type="tel"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="block text-[10px] font-bold uppercase tracking-widest text-on-surface-variant px-1">Preferred Time</label>
+<select class="w-full bg-surface-container-low border-none rounded-xl px-4 py-4 focus:ring-2 focus:ring-secondary transition-all appearance-none">
+<option>Evening (5:30 PM - 7:00 PM)</option>
+<option>Late Evening (7:00 PM - 9:00 PM)</option>
+<option>Urgent Consultation</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="block text-[10px] font-bold uppercase tracking-widest text-on-surface-variant px-1">Health Concern</label>
+<textarea class="w-full bg-surface-container-low border-none rounded-xl px-4 py-4 focus:ring-2 focus:ring-secondary transition-all placeholder:text-outline-variant resize-none" placeholder="Describe your symptoms or health goals..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary py-5 rounded-full font-bold text-lg hover:bg-zinc-800 transition-all flex justify-center items-center gap-2 group" type="submit" onclick="window.location.href='/contact.html'">
+                        Confirm Request
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</form>
+</section>
+<!-- Right: Contact & Info -->
+<aside class="lg:col-span-5 space-y-8">
+<!-- Contact Methods -->
+<div class="space-y-4">
+<a class="flex items-center justify-between p-6 bg-tertiary-fixed text-on-tertiary-fixed rounded-xl hover:scale-[1.02] active:scale-95 transition-all" href="#">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-3xl">chat</span>
+<div>
+<p class="text-[10px] font-bold uppercase tracking-widest opacity-70">Message Us</p>
+<p class="text-xl font-bold">WhatsApp Support</p>
+</div>
+</div>
+<span class="material-symbols-outlined">open_in_new</span>
+</a>
+<a class="flex items-center justify-between p-6 bg-secondary text-on-secondary rounded-xl hover:scale-[1.02] active:scale-95 transition-all" href="tel:+919271893176">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-3xl">call</span>
+<div>
+<p class="text-[10px] font-bold uppercase tracking-widest opacity-70">Call Clinic</p>
+<p class="text-xl font-bold">Quick Consultation</p>
+</div>
+</div>
+<span class="material-symbols-outlined">call</span>
+</a>
+</div>
+<!-- Info Cards Grid (Bento Style) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="bg-surface-container-low p-6 rounded-xl">
+<span class="material-symbols-outlined text-secondary mb-3">location_on</span>
+<p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-2">Location</p>
+<p class="font-medium text-sm leading-relaxed">Near Pratidnya Hall No. 2, Karvenagar, Pune.</p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl">
+<span class="material-symbols-outlined text-tertiary-fixed-dim mb-3">schedule</span>
+<p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-2">Clinic Hours</p>
+<p class="font-medium text-sm leading-relaxed">Mon - Sat<br/>Opens 5:30 PM</p>
+</div>
+</div>
+<!-- Map Placeholder -->
+                    <!-- Google Maps Integration -->
+                    <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-surface-container-high shadow-inner group">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.4323131343!2d73.8183049!3d18.4901046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b957303d8df5%3A0xf69cce9568955f05!2sFRRF%2BXW%2C%20Karvenagar%2C%20Pune%2C%20Maharashtra%20411052!5e0!3m2!1sen!2sin!4v1713275000000!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="grayscale hover:grayscale-0 transition-all duration-700 pointer-events-auto">
+                        </iframe>
+                        <a href="https://www.google.com/maps/dir//FRRF%2BXW+Pune+Maharashtra" target="_blank" class="absolute bottom-4 right-4 bg-white px-6 py-3 rounded-full flex items-center gap-2 shadow-xl hover:scale-105 active:scale-95 transition-all text-secondary font-bold text-sm z-10">
+                            <span class="material-symbols-outlined">directions</span>
+                            Get Directions
+                        </a>
+                    </div>
+</aside>
+</div>
+</main>
+<!-- SideNavBar (FAB) -->
+<div class="fixed bottom-8 right-8 z-50 flex items-center justify-center">
+<button class="bg-black dark:bg-white text-white dark:text-black rounded-full p-4 shadow-2xl shadow-blue-500/20 hover:scale-110 active:scale-90 transition-transform flex items-center gap-2">
+<span class="material-symbols-outlined">calendar_today</span>
+<span class="hidden md:block Inter Bold uppercase tracking-widest text-[10px] px-2">Book Appointment</span>
+</button>
+</div>
+    <!-- Footer -->
+    <footer class="bg-gray-50 dark:bg-zinc-950 w-full py-12 px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div class="space-y-4">
+                <div class="text-lg font-bold text-black dark:text-white">Krushna Clinic</div>
+                <p class="text-gray-400 dark:text-gray-600 Inter Regular text-xs tracking-wide leading-relaxed">
+                    © 2024 Krushna Homoeopathic Clinic. <br />
+                    Karvenagar, Pune.
+                </p>
+            </div>
+            <div class="flex flex-col gap-3">
+                <div class="text-xs font-bold uppercase tracking-widest text-black dark:text-white mb-2">Patient Care</div>
+                <a class="Inter Regular text-xs tracking-wide text-gray-400 dark:text-gray-600 hover:underline transition-all hover:text-blue-600"
+                    href="#">Privacy Policy</a>
+                <a class="Inter Regular text-xs tracking-wide text-gray-400 dark:text-gray-600 hover:underline transition-all hover:text-blue-600"
+                    href="#">Terms of Service</a>
+                <a class="Inter Regular text-xs tracking-wide text-blue-600 font-medium hover:underline transition-all"
+                    href="https://wa.me/919271893176">WhatsApp Support</a>
+            </div>
+            <div class="space-y-4">
+                <a href="https://www.google.com/maps/search/?api=1&query=FRRF%2BXW+Pune+Maharashtra" target="_blank"
+                    class="space-y-4 group block">
+                    <div
+                        class="text-xs font-bold uppercase tracking-widest text-black dark:text-white mb-2 group-hover:text-secondary transition-colors">
+                        Location</div>
+                    <p
+                        class="text-gray-400 dark:text-gray-600 Inter Regular text-xs tracking-wide group-hover:text-secondary transition-colors">
+                        Krushna Homoeopathic Clinic, Near Pratibha Society,<br />
+                        Karvenagar, Pune 411052.
+                    </p>
+                    <div class="flex gap-4">
+                        <span class="material-symbols-outlined text-secondary group-hover:scale-110 transition-transform"
+                            data-icon="location_on">location_on</span>
+                        <a href="tel:+919271893176" class="material-symbols-outlined text-gray-400 hover:text-secondary transition-colors" data-icon="call">call</a>
+                        <a href="mailto:contact@krushnahomoeopathy.com" class="material-symbols-outlined text-gray-400 hover:text-secondary transition-colors" data-icon="mail">mail</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body></html>

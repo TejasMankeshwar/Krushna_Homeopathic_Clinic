@@ -1,4 +1,4 @@
-# Krushna Homoeopathic Clinic Website
+# Krushna Homeopathic Clinic Website
 
 A beautiful, functional, multipage HTML/Tailwind project for Dr. Shravani Kadam's clinic, built using Vite.
 

@@ -1,0 +1,33 @@
+/* Update these 4 values to instantly change the entire website's color palette! */
+:root {
+  --color-base: #FBFBFB;
+  /* Backgrounds and default surfaces */
+  --color-primary: #003459;
+  /* Main text and primary high-contrast elements */
+  --color-secondary: #326789;
+  /* Outlines, secondary accents, buttons */
+  --color-tertiary: #74bde0;
+  /* Highlights, surface tints, soft accents */
+}
+
+/* Custom Logo Fonts and Styles */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.font-logo-title {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-logo-subtitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: 0.18em;
+}
+
+/* Micro-animations for the logo */
+.logo-container:hover .logo-icon {
+  transform: rotate(12deg) scale(1.08);
+  filter: drop-shadow(0 4px 8px rgba(50, 103, 137, 0.25));
+}
+
+.logo-icon {
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.3s ease;
+}

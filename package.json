@@ -1,5 +1,5 @@
 {
-  "name": "krushna_homeopathic_clinic",
+  "name": "krushna_Homoeopathic_clinic",
   "version": "1.0.0",
   "description": "A repo that holds the code for hosting a website for Dr. Shravani Kadam.",
   "main": "index.js",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TejasMankeshwar/Krushna_Homeopathic_Clinic.git"
+    "url": "git+https://github.com/TejasMankeshwar/Krushna_Homoeopathic_Clinic.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/TejasMankeshwar/Krushna_Homeopathic_Clinic/issues"
+    "url": "https://github.com/TejasMankeshwar/Krushna_Homoeopathic_Clinic/issues"
   },
-  "homepage": "https://github.com/TejasMankeshwar/Krushna_Homeopathic_Clinic#readme",
+  "homepage": "https://github.com/TejasMankeshwar/Krushna_Homoeopathic_Clinic#readme",
   "devDependencies": {
     "vite": "^8.0.8"
   }

@@ -1,4 +1,4 @@
-# Krushna Homeopathic Clinic Website
+# Krushna Homoeopathic Clinic Website
 
 A beautiful, functional, multipage HTML/Tailwind project for Dr. Shravani Kadam's clinic, built using Vite.
 
@@ -14,7 +14,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. Open your terminal and navigate to the project directory:
    ```bash
-   cd /Users/tejasmankeshwar/Developer/Projects/Krushna_Homeopathic_Clinic
+   cd /Users/tejasmankeshwar/Developer/Projects/Krushna_Homoeopathic_Clinic
    ```
 
 2. Install the necessary dependencies (Vite):
